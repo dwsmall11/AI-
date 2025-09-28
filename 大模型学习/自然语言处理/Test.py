@@ -73,19 +73,14 @@ import numpy as np
 
 # print(b)
 
-# x = torch.rand(9,9)
-# if torch.cuda.is_available():
-#     #将处理设备定义为GPU
-#     device = torch.device("cude")
-#     y=torch.ones_like(x, device=device)
-#     #将x转移到gpu上
-#     x = x.to(device)
-#     z= x+y
-#     print(z)
-#     print(z.to("cpu", torch.double))
-
-print(torch.__version__)
+x = torch.rand(9,9)
+print(x)
 if torch.cuda.is_available():
-    print("cuda is available")
-else:
-    print("cuda is not available")
+    #将处理设备定义为GPU
+    device = torch.device("cuda")
+    y=torch.ones_like(x, device=device)
+    #将x转移到gpu上
+    x = x.to(device)
+    z= x+y
+    print(z)
+    print(z.to("cpu", torch.double))
