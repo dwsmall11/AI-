@@ -84,5 +84,8 @@ import numpy as np
 #     print(z)
 #     print(z.to("cpu", torch.double))
 
+print(torch.__version__)
 if torch.cuda.is_available():
     print("cuda is available")
+else:
+    print("cuda is not available")
