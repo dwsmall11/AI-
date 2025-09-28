@@ -22,7 +22,7 @@
         （1）pytorch 有cpu 和 gpu 两个版本
             cpu版本：直接运行 pip install torch， 没有pip先安装python
         （2）访问pytorch官网，根据电脑情况，选择对应版本，获取安装链接命令
-            https://pytorch.org/
+            网站：https://pytorch.org/
             !["pytorch安装链接选择"](../../imgs/pytorchGPU版本安装.png)
             测试：
                 <code>
