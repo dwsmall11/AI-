@@ -18,10 +18,10 @@
        （2）cuda下载 https://developer.nvidia.com/cuda-toolkit
        （3）安装测试 cmd 执行 nvcc --version 显示cuda版本信息
     
-    2、在vscode中安装 pytorch
+    ##2、在vscode中安装 pytorch
         （1）pytorch 有cpu 和 gpu 两个版本
             cpu版本：直接运行 pip install torch， 没有pip先安装python
-       （2）访问pytorch官网，根据电脑情况，选择对应版本，获取安装链接命令
+        （2）访问pytorch官网，根据电脑情况，选择对应版本，获取安装链接命令
             https://pytorch.org/
             !["pytorch安装链接选择"](../../imgs/pytorchGPU版本安装.png)
             测试：
